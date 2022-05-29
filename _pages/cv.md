@@ -11,30 +11,40 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in the department of Computer Intelligence Science, Peking University, 2019
+* Ph.D. in the School of Computer Science, Peking University, 2024 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2018.09-2019.03: Research Intern
+  * Huawei
+  * Duties included: AutoScheduler Design
+  * Supervisor: Lijuan Jiang
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2019.09-2020.04: Research Intern
+  * SenseTime Research
+  * Duties included: AutoScheduler Design
+  * Supervisor: Xiuhong Li
+
+* 2020.09-2021.03: Research Intern
+  * Megvii
+  * Duties included: Develop new operators in CUTLASS
+  * Supervisor: Ping Zeng
+
+* 2021.04-present: Research Intern
+  * SenseTime Research
+  * Duties included: Autodiff, AutoTensorize
+  * Supervisor: Xiuhong Li
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * C++
+  * Python
+* TVM
+  * Operator development
+  * Specialization for new hardware
+  * Network optimization
 
 Publications
 ======
@@ -54,6 +64,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+<!-- Service
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
