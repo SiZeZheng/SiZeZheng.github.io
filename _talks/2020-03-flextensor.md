@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2020-03-flextensor
 venue: "ASPLOS 2020 (online)"
-date: 202-03
+date: 2020-03-16
 location: "Lausanne, Switzerland"
 ---
 
