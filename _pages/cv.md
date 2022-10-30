@@ -31,9 +31,14 @@ Work experience
   * Duties included: Develop new operators in CUTLASS
   * Supervisor: Ping Zeng
 
-* 2021.04-present: Research Intern
+* 2021.04-2022.10: Research Intern
   * SenseTime Research
   * Duties included: Autodiff, AutoTensorize
+  * Supervisor: Xiuhong Li
+
+* 2022.10-present: Research Intern
+  * Shanghai AI Lab
+  * Duties included: Operator Fusion Optimization
   * Supervisor: Xiuhong Li
   
 Skills

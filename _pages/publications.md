@@ -10,6 +10,9 @@ author_profile: true
 
 ---
 
+### [Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion.](https://cs.stanford.edu/~anjiang/papers/ZhengETAL22AMOS.pdf)
+**Size Zheng**, Renze Chen, Siyuan Chen, Peidi Song, Renze Chen, Xiuhong Li, Shengen Yan, Dahua Lin, Jingwen Leng, Yun Liang. _to appear in HPCA 2023_
+
 ### [AMOS: Enabling Automatic Mapping for Tensor Computations On Spatial Accelerators with Hardware Abstraction.](https://cs.stanford.edu/~anjiang/papers/ZhengETAL22AMOS.pdf)
 **Size Zheng**, Renze Chen, Anjiang Wei, Yicheng Jin, Qin Han, Liqiang Lu, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. _ISCA 2022_
 
