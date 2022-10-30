@@ -10,6 +10,8 @@ author_profile: true
 
 ---
 
+## First Author Papers
+
 ### [Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion.](https://cs.stanford.edu/~anjiang/papers/ZhengETAL22AMOS.pdf)
 **Size Zheng**, Renze Chen, Siyuan Chen, Peidi Song, Renze Chen, Xiuhong Li, Shengen Yan, Dahua Lin, Jingwen Leng, Yun Liang. _to appear in HPCA 2023_
 
@@ -19,12 +21,14 @@ author_profile: true
 ### [NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training.](https://ieeexplore.ieee.org/document/9664259)
 **Size Zheng**, Renze Chen, Yicheng Jin, Anjiang Wei, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. _TPDS 2021_
 
+### [FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System.](https://dl.acm.org/doi/10.1145/3373376.3378508)
+**Size Zheng**, Yun Liang, Shuo Wang, Renze Chen, Kaiwen Sheng. _ASPLOS 2020_
+
+## Coauthored Papers
 ### [HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation.](https://arxiv.org/pdf/2105.01585.pdf)
 Qingcheng Xiao, **Size Zheng**, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang. _ISCA 2021_
 
 ### [SuSy: A Programming Model for Productive Construction of High-Performance Systolic Arrays on FPGAs.](https://ieeexplore.ieee.org/document/9256583)
 Yi-Hsiang Lai, Hongbo Rong, **Size Zheng**, Weihao Zhang, Xiuping Cui, Yunshan Jia, Jie Wang, Brendan Sullivan, Zhiru Zhang, Yun Liang, Youhui Zhang, Jason Cong, Nithin George, Jose Alvarez, Christopher J. Hughes, Pradeep Dubey. _ICCAD 2020_
 
-### [FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System.](https://dl.acm.org/doi/10.1145/3373376.3378508)
-**Size Zheng**, Yun Liang, Shuo Wang, Renze Chen, Kaiwen Sheng. _ASPLOS 2020_
 
