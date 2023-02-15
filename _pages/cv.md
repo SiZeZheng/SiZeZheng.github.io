@@ -16,10 +16,10 @@ Education
 
 Work experience
 ======
-* 2018.09-2019.03: Research Intern
+<!-- * 2018.09-2019.03: Research Intern
   * Huawei
   * Duties included: AutoScheduler Design
-  * Supervisor: Lijuan Jiang
+  * Supervisor: Lijuan Jiang -->
 
 * 2019.09-2020.04: Research Intern
   * SenseTime Research
