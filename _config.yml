@@ -86,7 +86,7 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : “https://scholar.google.com/citations?user=TMZWR1gAAAAJ&hl=en” # "http://yourfullgooglescholarurl.com"
+  googlescholar    : “citations?user=TMZWR1gAAAAJ&hl=en” # "http://yourfullgooglescholarurl.com"
   email            : “zheng.size@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -94,7 +94,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "profile.php?id=100094437946132"
   foursquare       :
   github           : "KnowingNothing"
   google_plus      :
@@ -103,7 +103,7 @@ author:
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : # "https://orcid.org/0000-0002-9471-1780"
+  orcid            : "0000-0002-9471-1780"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "Si-Ze Zheng"
+  youtube          : "channel/UCwOVrqae9dds_gkg6Bp7Xng"
   wikipedia        :
 
 
