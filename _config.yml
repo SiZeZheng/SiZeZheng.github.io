@@ -86,7 +86,7 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : “citations?user=TMZWR1gAAAAJ&hl=en” # "http://yourfullgooglescholarurl.com"
+  googlescholar    : citations?user=TMZWR1gAAAAJ&hl=en # "http://yourfullgooglescholarurl.com"
   email            : “zheng.size@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "chno-zheng-323255291/"
   orcid            : "0000-0002-9471-1780"
   pinterest        :
   soundcloud       :
