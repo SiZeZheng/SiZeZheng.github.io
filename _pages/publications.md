@@ -13,7 +13,7 @@ author_profile: true
 ## Preprint
 
 [P2] <span style="margin-left: 10px;">ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING.
-Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, Size Zheng, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci. **arXiv 2023** [[link]](https://arxiv.org/abs/2310.19102)</span> 
+Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, **Size Zheng**, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci. **arXiv 2023** [[link]](https://arxiv.org/abs/2310.19102)</span> 
 
 [P1] <span style="margin-left: 10px;">HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation.
 Qingcheng Xiao, **Size Zheng**, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang. **CoRR 2021**
