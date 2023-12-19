@@ -21,9 +21,13 @@ Qingcheng Xiao, **Size Zheng**, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang
 
 ## Journal
 
+[J3] <span style="margin-left: 10px;">Rubick: A Unified Infrastructure for Analyzing, Exploring, and Implementing Spatial Architectures via Dataflow Decomposition.
+Liqiang Lu, Zizhang Luo, **Size Zheng**, Jieming Yin, Jason Cong, Yun Liang, Jianwei Yin. **TPDS 2021**
+[[PDF]](../files/TCAD-2023.pdf) [[link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10330679)</span> 
+
 [J2] <span style="margin-left: 10px;">NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training.
 **Size Zheng**, Renze Chen, Yicheng Jin, Anjiang Wei, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. **TPDS 2021**
-[[PDF]](../files/NeoFlow-OpenAccess-Version.pdf) [[link]]((https://ieeexplore.ieee.org/document/9664259))</span> 
+[[PDF]](../files/NeoFlow-OpenAccess-Version.pdf) [[link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9664259)</span> 
 
 [J1] <span style="margin-left: 10px;">Accelerating convolutional neural networks on FPGAs (中文)
 Liqiang Lu, **Size Zheng**, Qingcheng Xiao, Deming Chen, Yun Liang. **SCIENTIA SINICA Informationis, 2019**
@@ -34,7 +38,7 @@ Liqiang Lu, **Size Zheng**, Qingcheng Xiao, Deming Chen, Yun Liang. **SCIENTIA S
 
 [C9] <span style="margin-left: 10px;">TileFlow: A Framework for Modeling Fusion Dataflow via Tree-based Analysis.
 **Size Zheng**, Siyuan Chen, Siyuan Gao, Liancheng Jia, Guangyu Sun, Runsheng Wang, Yun Liang. **MICRO 2023**
-[[PDF]](../files/micro23-101.pdf)</span> 
+[[PDF]](../files/micro23-101.pdf) [[link]](https://dl.acm.org/doi/10.1145/3613424.3623792)</span> 
 
 [C8] <span style="margin-left: 10px;">ARES: A Mapping Framework of DNNs towards Diverse PIMs with General Abstractions.
 Xiuping Cui, **Size Zheng**, Tianyu Jia, Le Ye and Yun Liang. **ICCAD 2023**</span> 
@@ -62,7 +66,7 @@ Qingcheng Xiao, **Size Zheng**, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang
 
 [C2] <span style="margin-left: 10px;">SuSy: A Programming Model for Productive Construction of High-Performance Systolic Arrays on FPGAs.
 Yi-Hsiang Lai, Hongbo Rong, **Size Zheng**, Weihao Zhang, Xiuping Cui, Yunshan Jia, Jie Wang, Brendan Sullivan, Zhiru Zhang, Yun Liang, Youhui Zhang, Jason Cong, Nithin George, Jose Alvarez, Christopher J. Hughes, Pradeep Dubey. **ICCAD 2020**
-[[PDF]](../files/susy.pdf) [[link]]((https://ieeexplore.ieee.org/document/9256583))</span> 
+[[PDF]](../files/susy.pdf) [[link]](https://dl.acm.org/doi/abs/10.1145/3400302.3415644)</span> 
 
 [C1] <span style="margin-left: 10px;">FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System.
 **Size Zheng**, Yun Liang, Shuo Wang, Renze Chen, Kaiwen Sheng. **ASPLOS 2020**
