@@ -22,7 +22,7 @@ Qingcheng Xiao, **Size Zheng**, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang
 ## Journal
 
 [J3] <span style="margin-left: 10px;">Rubick: A Unified Infrastructure for Analyzing, Exploring, and Implementing Spatial Architectures via Dataflow Decomposition.
-Liqiang Lu, Zizhang Luo, **Size Zheng**, Jieming Yin, Jason Cong, Yun Liang, Jianwei Yin. **TPDS 2021**
+Liqiang Lu, Zizhang Luo, **Size Zheng**, Jieming Yin, Jason Cong, Yun Liang, Jianwei Yin. **TCAD 2023**
 [[PDF]](../files/TCAD-2023.pdf) [[link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10330679)</span> 
 
 [J2] <span style="margin-left: 10px;">NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training.
