@@ -36,7 +36,7 @@ Liqiang Lu, **Size Zheng**, Qingcheng Xiao, Deming Chen, Yun Liang. **SCIENTIA S
 
 ## Conference
 
-[C12] <span style="margin-left: 10px;">vMCU: Coordinated Memory Management and Kernel Optimization for DNN Inference on MCUs.
+[C13] <span style="margin-left: 10px;">vMCU: Coordinated Memory Management and Kernel Optimization for DNN Inference on MCUs.
 **Size Zheng**, Renze Chen, Meng Li, Zihao Ye, Luis Ceze, Yun Liang. **MLSys 2024** to appear</span> 
 
 [C12] <span style="margin-left: 10px;">ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING.
