@@ -36,6 +36,20 @@ Liqiang Lu, **Size Zheng**, Qingcheng Xiao, Deming Chen, Yun Liang. **SCIENTIA S
 
 ## Conference
 
+[C12] <span style="margin-left: 10px;">vMCU: Coordinated Memory Management and Kernel Optimization for DNN Inference on MCUs.
+**Size Zheng**, Renze Chen, Meng Li, Zihao Ye, Luis Ceze, Yun Liang. **MLSys 2024** to appear</span> 
+
+[C12] <span style="margin-left: 10px;">ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING.
+Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, **Size Zheng**, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci. **MLSys 2024** to appear</span> 
+
+[C11] <span style="margin-left: 10px;">SpREM: Exploiting Hamming Sparsity for Fast Quantum Readout Error Mitigation.
+Hanyu Zhang, Liqiang Lu, Siwei Tan, **Size Zheng**, Jia Yu and Jianwei Yin. **DAC 2024**
+to appear</span> 
+
+[C10] <span style="margin-left: 10px;">MoteNN: Memory Optimization via Fine-grained Scheduling for Deep Neural Networks on Tiny Devices.
+Renze Chen, Zijian Ding, **Size Zheng**, Meng Li, Yun Liang. **DAC 2024**
+to appear</span> 
+
 [C9] <span style="margin-left: 10px;">TileFlow: A Framework for Modeling Fusion Dataflow via Tree-based Analysis.
 **Size Zheng**, Siyuan Chen, Siyuan Gao, Liancheng Jia, Guangyu Sun, Runsheng Wang, Yun Liang. **MICRO 2023**
 [[PDF]](../files/micro23-101.pdf) [[link]](https://dl.acm.org/doi/10.1145/3613424.3623792)</span> 
