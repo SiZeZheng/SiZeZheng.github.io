@@ -20,81 +20,153 @@ author_profile: true
     <a href="https://arxiv.org/abs/2310.19102" style="margin-left: 20px; text-decoration: none; color: #007bff;">[link]</a>
 </div>
 
-[P2] <span style="margin-left: 10px;">ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING.
-Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, **Size Zheng**, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci. **arXiv 2023** [[link]](https://arxiv.org/abs/2310.19102)</span> 
-
-[P1] <span style="margin-left: 10px;">HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation.
-Qingcheng Xiao, **Size Zheng**, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang. **CoRR 2021**
-[[PDF]](../files/ISCA21-xqc.pdf) [[link]](https://arxiv.org/abs/2105.01585)</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[P1] HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Qingcheng Xiao, <strong>Size Zheng</strong>, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang. <em>CoRR 2021</em></span>
+    </div>
+    <a href="https://arxiv.org/abs/2105.01585" style="margin-left: 20px; text-decoration: none; color: #007bff;">[PDF]</a>
+    <a href="../files/ISCA21-xqc.pdf" style="text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
 ## Journal
 
-[J3] <span style="margin-left: 10px;">Rubick: A Unified Infrastructure for Analyzing, Exploring, and Implementing Spatial Architectures via Dataflow Decomposition.
-Liqiang Lu, Zizhang Luo, **Size Zheng**, Jieming Yin, Jason Cong, Yun Liang, Jianwei Yin. **TCAD 2023**
-[[PDF]](../files/TCAD-2023.pdf) [[link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10330679)</span> 
+<!-- 同上面的格式，将所有Journal条目改写 -->
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[J3] Rubick: A Unified Infrastructure for Analyzing, Exploring, and Implementing Spatial Architectures via Dataflow Decomposition.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Liqiang Lu, Zizhang Luo, <strong>Size Zheng</strong>, Jieming Yin, Jason Cong, Yun Liang, Jianwei Yin. <em>TCAD 2023</em></span>
+    </div>
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10330679" style="margin-left: 20px; text-decoration: none; color: #007bff;">[PDF]</a>
+    <a href="../files/TCAD-2023.pdf" style="text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
-[J2] <span style="margin-left: 10px;">NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training.
-**Size Zheng**, Renze Chen, Yicheng Jin, Anjiang Wei, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. **TPDS 2021**
-[[PDF]](../files/NeoFlow-OpenAccess-Version.pdf) [[link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9664259)</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[J2] NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;"><strong>Size Zheng</strong>, Renze Chen, Yicheng Jin, Anjiang Wei, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. <em>TPDS 2021</em></span>
+    </div>
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9664259" style="margin-left: 20px; text-decoration: none; color: #007bff;">[PDF]</a>
+    <a href="../files/NeoFlow-OpenAccess-Version.pdf" style="text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
-[J1] <span style="margin-left: 10px;">Accelerating convolutional neural networks on FPGAs (中文)
-Liqiang Lu, **Size Zheng**, Qingcheng Xiao, Deming Chen, Yun Liang. **SCIENTIA SINICA Informationis, 2019**
-[[PDF]](../files/N112018-00291.pdf) [[link]](https://ceca.pku.edu.cn/docs/20200113152559178152.pdf)</span> 
-
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[J1] Accelerating convolutional neural networks on FPGAs (中文).</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Liqiang Lu, <strong>Size Zheng</strong>, Qingcheng Xiao, Deming Chen, Yun Liang. <em>SCIENTIA SINICA Informationis, 2019</em></span>
+    </div>
+    <a href="https://ceca.pku.edu.cn/docs/20200113152559178152.pdf" style="margin-left: 20px; text-decoration: none; color: #007bff;">[PDF]</a>
+    <a href="../files/N112018-00291.pdf" style="text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
 ## Conference
 
-[C14] <span style="margin-left: 10px;">MAGIS: Memory Optimization via Coordinated Graph Transformation and Scheduling for Deep Neural Network.
-Renze Chen, Zijian Ding, **Size Zheng**, Chengrui Zhang, Jingwen Leng, Xuanzhe Liu, Yun Liang. **ASPLOS 2024** to appear</span> 
+<!-- 同上面的格式，将所有Conference条目改写 -->
 
-[C13] <span style="margin-left: 10px;">vMCU: Coordinated Memory Management and Kernel Optimization for DNN Inference on MCUs.
-**Size Zheng**, Renze Chen, Meng Li, Zihao Ye, Luis Ceze, Yun Liang. **MLSys 2024** to appear</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C14] MAGIS: Memory Optimization via Coordinated Graph Transformation and Scheduling for Deep Neural Network.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Renze Chen, Zijian Ding, <strong>Size Zheng</strong>, Chengrui Zhang, Jingwen Leng, Xuanzhe Liu, Yun Liang. <em>ASPLOS 2024</em> to appear</span>
+    </div>
+</div>
 
-[C12] <span style="margin-left: 10px;">ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING.
-Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, **Size Zheng**, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci. **MLSys 2024** to appear</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C13] vMCU: Coordinated Memory Management and Kernel Optimization for DNN Inference on MCUs.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;"><strong>Size Zheng</strong>, Renze Chen, Meng Li, Zihao Ye, Luis Ceze, Yun Liang. <em>MLSys 2024</em> to appear</span>
+    </div>
+</div>
 
-[C11] <span style="margin-left: 10px;">SpREM: Exploiting Hamming Sparsity for Fast Quantum Readout Error Mitigation.
-Hanyu Zhang, Liqiang Lu, Siwei Tan, **Size Zheng**, Jia Yu and Jianwei Yin. **DAC 2024**
-to appear</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C12] ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, <strong>Size Zheng</strong>, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci. <em>MLSys 2024</em> to appear</span>
+    </div>
+</div>
 
-[C10] <span style="margin-left: 10px;">MoteNN: Memory Optimization via Fine-grained Scheduling for Deep Neural Networks on Tiny Devices.
-Renze Chen, Zijian Ding, **Size Zheng**, Meng Li, Yun Liang. **DAC 2024**
-to appear</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C11] SpREM: Exploiting Hamming Sparsity for Fast Quantum Readout Error Mitigation.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Hanyu Zhang, Liqiang Lu, Siwei Tan, <strong>Size Zheng</strong>, Jia Yu and Jianwei Yin. <em>DAC 2024</em> to appear</span>
+    </div>
+</div>
 
-[C9] <span style="margin-left: 10px;">TileFlow: A Framework for Modeling Fusion Dataflow via Tree-based Analysis.
-**Size Zheng**, Siyuan Chen, Siyuan Gao, Liancheng Jia, Guangyu Sun, Runsheng Wang, Yun Liang. **MICRO 2023**
-[[PDF]](../files/micro23-101.pdf) [[link]](https://dl.acm.org/doi/10.1145/3613424.3623792)</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C10] MoteNN: Memory Optimization via Fine-grained Scheduling for Deep Neural Networks on Tiny Devices.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Renze Chen, Zijian Ding, <strong>Size Zheng</strong>, Meng Li, Yun Liang. <em>DAC 2024</em> to appear</span>
+    </div>
+</div>
 
-[C8] <span style="margin-left: 10px;">ARES: A Mapping Framework of DNNs towards Diverse PIMs with General Abstractions.
-Xiuping Cui, **Size Zheng**, Tianyu Jia, Le Ye and Yun Liang. **ICCAD 2023**</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C9] TileFlow: A Framework for Modeling Fusion Dataflow via Tree-based Analysis.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;"><strong>Size Zheng</strong>, Siyuan Chen, Siyuan Gao, Liancheng Jia, Guangyu Sun, Runsheng Wang, Yun Liang. <em>MICRO 2023</em></span>
+    </div>
+    <a href="https://dl.acm.org/doi/10.1145/3613424.3623792" style="margin-left: 20px; text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
-[C7] <span style="margin-left: 10px;">Memory and Computation Coordinated Mapping of DNNs onto Complex Heterogeneous SoC.
-**Size Zheng**, Siyuan Chen, Yun Liang. **DAC 2023**
-[[PDF]](../files/COMB-Final.pdf) [[link]](https://ieeexplore.ieee.org/document/10247951)</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C8] ARES: A Mapping Framework of DNNs towards Diverse PIMs with General Abstractions.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Xiuping Cui, <strong>Size Zheng</strong>, Tianyu Jia, Le Ye and Yun Liang. <em>ICCAD 2023</em></span>
+    </div>
+</div>
 
-[C6] <span style="margin-left: 10px;">Rubick: A Synthesis Framework for Spatial Architectures via Dataflow Decomposition.
-Zizhang Luo, Liqiang Lu, **Size Zheng**, Jieming Yin, Jason Cong, Jianwei Yin, Yun Liang. **DAC 2023**
-[[PDF]](../files/Rubick_final.pdf)</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C7] Memory and Computation Coordinated Mapping of DNNs onto Complex Heterogeneous SoC.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;"><strong>Size Zheng</strong>, Siyuan Chen, Yun Liang. <em>DAC 2023</em></span>
+    </div>
+    <a href="https://ieeexplore.ieee.org/document/10247951" style="margin-left: 20px; text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
-[C5] <span style="margin-left: 10px;">Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion.
-**Size Zheng**, Siyuan Chen, Peidi Song, Renze Chen, Xiuhong Li, Shengen Yan, Dahua Lin, Jingwen Leng, Yun Liang. **HPCA 2023**
-[[PDF]](../files/7A-3.pdf) [[link]](https://ieeexplore.ieee.org/document/10071018/)</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C6] Rubick: A Synthesis Framework for Spatial Architectures via Dataflow Decomposition.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Zizhang Luo, Liqiang Lu, <strong>Size Zheng</strong>, Jieming Yin, Jason Cong, Jianwei Yin, Yun Liang. <em>DAC 2023</em></span>
+    </div>
+</div>
 
-[C4] <span style="margin-left: 10px;">AMOS: Enabling Automatic Mapping for Tensor Computations On Spatial Accelerators with Hardware Abstraction.
-**Size Zheng**, Renze Chen, Anjiang Wei, Yicheng Jin, Qin Han, Liqiang Lu, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. **ISCA 2022**
-[[PDF]](../files/AMOS_ISCA_22_Final.pdf) [[link]](https://cs.stanford.edu/~anjiang/papers/ZhengETAL22AMOS.pdf)</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C5] Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;"><strong>Size Zheng</strong>, Siyuan Chen, Peidi Song, Renze Chen, Xiuhong Li, Shengen Yan, Dahua Lin, Jingwen Leng, Yun Liang. <em>HPCA 2023</em></span>
+    </div>
+    <a href="https://ieeexplore.ieee.org/document/10071018/" style="margin-left: 20px; text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C4] AMOS: Enabling Automatic Mapping for Tensor Computations On Spatial Accelerators with Hardware Abstraction.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;"><strong>Size Zheng</strong>, Renze Chen, Anjiang Wei, Yicheng Jin, Qin Han, Liqiang Lu, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. <em>ISCA 2022</em></span>
+    </div>
+    <a href="https://cs.stanford.edu/~anjiang/papers/ZhengETAL22AMOS.pdf" style="margin-left: 20px; text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
-[C3] <span style="margin-left: 10px;">HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation.
-Qingcheng Xiao, **Size Zheng**, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang. **ISCA 2021**
-[[PDF]](../files/ISCA21-xqc.pdf) [[link]](https://dl.acm.org/doi/10.1109/ISCA52012.2021.00086)</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C3] HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Qingcheng Xiao, <strong>Size Zheng</strong>, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang. <em>ISCA 2021</em></span>
+    </div>
+    <a href="https://dl.acm.org/doi/10.1109/ISCA52012.2021.00086" style="margin-left: 20px; text-decoration: none; color: #007bff;">[PDF]</a>
+    <a href="../files/ISCA21-xqc.pdf" style="text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
-[C2] <span style="margin-left: 10px;">SuSy: A Programming Model for Productive Construction of High-Performance Systolic Arrays on FPGAs.
-Yi-Hsiang Lai, Hongbo Rong, **Size Zheng**, Weihao Zhang, Xiuping Cui, Yunshan Jia, Jie Wang, Brendan Sullivan, Zhiru Zhang, Yun Liang, Youhui Zhang, Jason Cong, Nithin George, Jose Alvarez, Christopher J. Hughes, Pradeep Dubey. **ICCAD 2020**
-[[PDF]](../files/susy.pdf) [[link]](https://dl.acm.org/doi/abs/10.1145/3400302.3415644)</span> 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C2] SuSy: A Programming Model for Productive Construction of High-Performance Systolic Arrays on FPGAs.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Yi-Hsiang Lai, Hongbo Rong, <strong>Size Zheng</strong>, Weihao Zhang, Xiuping Cui, Yunshan Jia, Jie Wang, Brendan Sullivan, Zhiru Zhang, Yun Liang, Youhui Zhang, Jason Cong, Nithin George, Jose Alvarez, Christopher J. Hughes, Pradeep Dubey. <em>ICCAD 2020</em></span>
+    </div>
+    <a href="https://dl.acm.org/doi/abs/10.1145/3400302.3415644" style="margin-left: 20px; text-decoration: none; color: #007bff;">[PDF]</a>
+    <a href="../files/susy.pdf" style="text-decoration: none; color: #007bff;">[link]</a>
+</div>
 
-[C1] <span style="margin-left: 10px;">FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System.
-**Size Zheng**, Yun Liang, Shuo Wang, Renze Chen, Kaiwen Sheng. **ASPLOS 2020**
-[[PDF]](../files/flextensor.pdf) [[link]](https://dl.acm.org/doi/10.1145/3373376.3378508)</span> 
-
-
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[C1] FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;"><strong>Size Zheng</strong>, Yun Liang, Shuo Wang, Renze Chen, Kaiwen Sheng. <em>ASPLOS 2020</em></span>
+    </div>
+    <a href="https://dl.acm.org/doi/10.1145/3373376.3378508" style="margin-left: 20px; text-decoration: none; color: #007bff;">[PDF]</a>
+    <a href="../files/flextensor.pdf" style="text-decoration: none; color: #007bff;">[link]</a>
+</div>
