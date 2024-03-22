@@ -1,6 +1,6 @@
 {% for paper in papers %}
 <div style="margin-bottom: 20px;">
-    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px; display: flex;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
         <div style="min-width: 40px; text-align: right; margin-right: 10px;">[{{ paper.id }}]</div>
         <div style="flex: 1;">
             {{ paper.title }}<br>
@@ -8,7 +8,7 @@
                 {{ paper.authors }}. <em>{{ paper.venue }} {{ paper.year }}</em>
             </span>
             {% for link in paper.links %}
-            <br><a href="{{ link.url }}" style="text-decoration: none; color: #007bff;">[{{ link.text }}]</a>
+            <a href="{{ link.url }}" style="margin-left: 10px; text-decoration: none; color: #007bff;">[{{ link.text }}]</a>
             {% endfor %}
         </div>
     </div>
