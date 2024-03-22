@@ -12,6 +12,14 @@ author_profile: true
 
 ## Preprint
 
+<div style="margin-bottom: 20px;">
+    <div style="color: #007bff; font-weight: bold; margin-bottom: 5px;">[P2] ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING.</div>
+    <div style="margin-left: 20px; margin-bottom: 5px;">
+        <span style="color: #333; font-size: 0.9em;">Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, <strong>Size Zheng</strong>, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci. <em>arXiv 2023</em></span>
+    </div>
+    <a href="https://arxiv.org/abs/2310.19102" style="margin-left: 20px; text-decoration: none; color: #007bff;">[link]</a>
+</div>
+
 [P2] <span style="margin-left: 10px;">ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING.
 Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, **Size Zheng**, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci. **arXiv 2023** [[link]](https://arxiv.org/abs/2310.19102)</span> 
 
