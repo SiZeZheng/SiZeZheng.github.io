@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-*I am expected to graduate in July 2024 so I am on the market for both faculty and industry researcher**
+**I am expected to graduate in July 2024 so I am on the market for both faculty and industry researcher**
 
 I am a Ph.D. Candidate in the School of CS at Peking University advised by [Prof. Yun Liang](https://ericlyun.github.io/). 
 I worked with Professor [Luis Ceze](https://homes.cs.washington.edu/~luisceze/) on LLM serving and optimization from September 2023 to January 2024 as
