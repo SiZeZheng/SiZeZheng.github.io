@@ -36,6 +36,9 @@ Liqiang Lu, **Size Zheng**, Qingcheng Xiao, Deming Chen, Yun Liang. **SCIENTIA S
 
 ## Conference
 
+[C14] <span style="margin-left: 10px;">MAGIS: Memory Optimization via Coordinated Graph Transformation and Scheduling for Deep Neural Network.
+Renze Chen, Zijian Ding, **Size Zheng**, Chengrui Zhang, Jingwen Leng, Xuanzhe Liu, Yun Liang. **ASPLOS 2024** to appear</span> 
+
 [C13] <span style="margin-left: 10px;">vMCU: Coordinated Memory Management and Kernel Optimization for DNN Inference on MCUs.
 **Size Zheng**, Renze Chen, Meng Li, Zihao Ye, Luis Ceze, Yun Liang. **MLSys 2024** to appear</span> 
 
