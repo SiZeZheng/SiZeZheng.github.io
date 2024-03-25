@@ -88,6 +88,17 @@ conferences = [
     #     ]
     # },
     {
+        "id": "C15",
+        "title": "SpecPIM: Accelerating Speculative Inference on PIM-Enabled System via Architecture-Dataflow Co-Exploration",
+        "authors": "Cong Li, Zhe Zhou, Size Zheng*, Jiaxi Zhang, Yun Liang, Guangyu Sun",
+        "venue": "to appear ASPLOS",
+        "year": "2024",
+        "links": [
+            {"url": "", "text": "PDF"},
+            {"url": "", "text": "link"}
+        ]
+    },
+    {
         "id": "C14",
         "title": "MAGIS: Memory Optimization via Coordinated Graph Transformation and Scheduling for DNN",
         "authors": "Renze Chen, Zijian Ding, Size Zheng*, Chengrui Zhang, Jingwen Leng, Xuanzhe Liu, Yun Liang",

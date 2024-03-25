@@ -107,6 +107,23 @@ author_profile: true
                
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C15]</div>
+        <div style="flex: 1;">
+            SpecPIM: Accelerating Speculative Inference on PIM-Enabled System via Architecture-Dataflow Co-Exploration<br>
+            <span style="color: #333; font-size: 0.9em;">
+                Cong Li, Zhe Zhou, Size Zheng*, Jiaxi Zhang, Yun Liang, Guangyu Sun. <em>to appear ASPLOS 2024</em>
+            </span>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
+            
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
         <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C14]</div>
         <div style="flex: 1;">
             MAGIS: Memory Optimization via Coordinated Graph Transformation and Scheduling for DNN<br>
