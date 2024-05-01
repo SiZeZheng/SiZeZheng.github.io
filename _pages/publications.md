@@ -148,7 +148,7 @@ author_profile: true
                 Size Zheng*, Renze Chen, Meng Li, Zihao Ye, Luis Ceze, Yun Liang. <em>to appear MLSys 2024</em>
             </span>
             
-            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            <a href="../files/vMCU.pdf" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
             
             <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
             

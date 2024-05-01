@@ -116,7 +116,7 @@ conferences = [
         "venue": "to appear MLSys",
         "year": "2024",
         "links": [
-            {"url": "", "text": "PDF"},
+            {"url": "../files/vMCU.pdf", "text": "PDF"},
             {"url": "", "text": "link"}
         ]
     },
