@@ -3,9 +3,20 @@ from jinja2 import Environment, FileSystemLoader
 # Define your papers here
 preprints = [
     {
+        "id": "P3",
+        "title": "ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference",
+        "authors": "Hanshi Sun, Li-Wen Chang, Wenlei Bao, Size Zheng, Ningxin Zheng, Xin Liu, Harry Dong, Yuejie Chi, Beidi Chen",
+        "venue": "arXiv",
+        "year": "2024",
+        "links": [
+            {"url": "https://arxiv.org/abs/2410.21465", "text": "PDF"},
+            {"url": "https://arxiv.org/abs/2410.21465", "text": "link"}
+        ]
+    },
+    {
         "id": "P2",
         "title": "ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING",
-        "authors": "Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, Size Zheng*, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci",
+        "authors": "Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, Size Zheng, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci",
         "venue": "arXiv",
         "year": "2023",
         "links": [
@@ -17,7 +28,7 @@ preprints = [
     {
         "id": "P1",
         "title": "HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation",
-        "authors": "Qingcheng Xiao, Size Zheng*, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang",
+        "authors": "Qingcheng Xiao, Size Zheng, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang",
         "venue": "CoRR",
         "year": "2021",
         "links": [
@@ -43,7 +54,7 @@ journals = [
     {
         "id": "J3",
         "title": "Rubick: A Unified Infrastructure for Analyzing, Exploring, and Implementing Spatial Architectures via Dataflow Decomposition",
-        "authors": "Liqiang Lu, Zizhang Luo, Size Zheng*, Jieming Yin, Jason Cong, Yun Liang, Jianwei Yin",
+        "authors": "Liqiang Lu, Zizhang Luo, Size Zheng, Jieming Yin, Jason Cong, Yun Liang, Jianwei Yin",
         "venue": "TCAD",
         "year": "2023",
         "links": [
@@ -54,7 +65,7 @@ journals = [
     {
         "id": "J2",
         "title": "NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training",
-        "authors": "Size Zheng*, Renze Chen, Yicheng Jin, Anjiang Wei, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang",
+        "authors": "Size Zheng, Renze Chen, Yicheng Jin, Anjiang Wei, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang",
         "venue": "TPDS",
         "year": "2021",
         "links": [
@@ -65,7 +76,7 @@ journals = [
     {
         "id": "J1",
         "title": "Accelerating convolutional neural networks on FPGAs (中文)",
-        "authors": "Liqiang Lu, Size Zheng*, Qingcheng Xiao, Deming Chen, Yun Liang",
+        "authors": "Liqiang Lu, Size Zheng, Qingcheng Xiao, Deming Chen, Yun Liang",
         "venue": "SCIENTIA SINICA Informationis",
         "year": "2019",
         "links": [
@@ -88,10 +99,21 @@ conferences = [
     #     ]
     # },
     {
+        "id": "C16",
+        "title": "ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction",
+        "authors": "Renze Chen, Zhuofeng Wang, Beiquan Cao, Tong Wu, Size Zheng, Xiuhong Li, Xuechao Wei, Shengen Yan, Meng Li, Yun Liang",
+        "venue": "NeurIPS",
+        "year": "2024",
+        "links": [
+            {"url": "", "text": "PDF"},
+            {"url": "", "text": "link"}
+        ]
+    },
+    {
         "id": "C15",
         "title": "SpecPIM: Accelerating Speculative Inference on PIM-Enabled System via Architecture-Dataflow Co-Exploration",
-        "authors": "Cong Li, Zhe Zhou, Size Zheng*, Jiaxi Zhang, Yun Liang, Guangyu Sun",
-        "venue": "to appear ASPLOS",
+        "authors": "Cong Li, Zhe Zhou, Size Zheng, Jiaxi Zhang, Yun Liang, Guangyu Sun",
+        "venue": "ASPLOS",
         "year": "2024",
         "links": [
             {"url": "", "text": "PDF"},
@@ -101,8 +123,8 @@ conferences = [
     {
         "id": "C14",
         "title": "MAGIS: Memory Optimization via Coordinated Graph Transformation and Scheduling for DNN",
-        "authors": "Renze Chen, Zijian Ding, Size Zheng*, Chengrui Zhang, Jingwen Leng, Xuanzhe Liu, Yun Liang",
-        "venue": "to appear ASPLOS",
+        "authors": "Renze Chen, Zijian Ding, Size Zheng, Chengrui Zhang, Jingwen Leng, Xuanzhe Liu, Yun Liang",
+        "venue": "ASPLOS",
         "year": "2024",
         "links": [
             {"url": "", "text": "PDF"},
@@ -112,8 +134,8 @@ conferences = [
     {
         "id": "C13",
         "title": "vMCU: Coordinated Memory Management and Kernel Optimization for DNN Inference on MCUs",
-        "authors": "Size Zheng*, Renze Chen, Meng Li, Zihao Ye, Luis Ceze, Yun Liang",
-        "venue": "to appear MLSys",
+        "authors": "Size Zheng, Renze Chen, Meng Li, Zihao Ye, Luis Ceze, Yun Liang",
+        "venue": "MLSys",
         "year": "2024",
         "links": [
             {"url": "../files/vMCU.pdf", "text": "PDF"},
@@ -123,8 +145,8 @@ conferences = [
     {
         "id": "C12",
         "title": "ATOM: LOW-BIT QUANTIZATION FOR EFFICIENT AND ACCURATE LLM SERVING",
-        "authors": "Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, Size Zheng*, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci",
-        "venue": "to appear MLSys",
+        "authors": "Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, Size Zheng, Luis Ceze, Arvind Krishnamurthy, Tianqi Chen, Baris Kasikci",
+        "venue": "MLSys",
         "year": "2024",
         "links": [
             {"url": "", "text": "PDF"},
@@ -134,8 +156,8 @@ conferences = [
     {
         "id": "C11",
         "title": "SpREM: Exploiting Hamming Sparsity for Fast Quantum Readout Error Mitigation",
-        "authors": "Hanyu Zhang, Liqiang Lu, Siwei Tan, Size Zheng*, Jia Yu and Jianwei Yin",
-        "venue": "to appear DAC",
+        "authors": "Hanyu Zhang, Liqiang Lu, Siwei Tan, Size Zheng, Jia Yu and Jianwei Yin",
+        "venue": "DAC",
         "year": "2024",
         "links": [
             {"url": "", "text": "PDF"},
@@ -145,8 +167,8 @@ conferences = [
     {
         "id": "C10",
         "title": "MoteNN: Memory Optimization via Fine-grained Scheduling for Deep Neural Networks on Tiny Devices",
-        "authors": "Renze Chen, Zijian Ding, Size Zheng*, Meng Li, Yun Liang",
-        "venue": "to appear DAC",
+        "authors": "Renze Chen, Zijian Ding, Size Zheng, Meng Li, Yun Liang",
+        "venue": "DAC",
         "year": "2024",
         "links": [
             {"url": "", "text": "PDF"},
@@ -156,7 +178,7 @@ conferences = [
     {
         "id": "C9",
         "title": "TileFlow: A Framework for Modeling Fusion Dataflow via Tree-based Analysis",
-        "authors": "Size Zheng*, Siyuan Chen, Siyuan Gao, Liancheng Jia, Guangyu Sun, Runsheng Wang, Yun Liang",
+        "authors": "Size Zheng, Siyuan Chen, Siyuan Gao, Liancheng Jia, Guangyu Sun, Runsheng Wang, Yun Liang",
         "venue": "MICRO",
         "year": "2023",
         "links": [
@@ -167,7 +189,7 @@ conferences = [
     {
         "id": "C8",
         "title": "ARES: A Mapping Framework of DNNs towards Diverse PIMs with General Abstractions",
-        "authors": "Xiuping Cui, Size Zheng*, Tianyu Jia, Le Ye and Yun Liang",
+        "authors": "Xiuping Cui, Size Zheng, Tianyu Jia, Le Ye and Yun Liang",
         "venue": "ICCAD",
         "year": "2023",
         "links": [
@@ -178,7 +200,7 @@ conferences = [
     {
         "id": "C7",
         "title": "Memory and Computation Coordinated Mapping of DNNs onto Complex Heterogeneous SoC",
-        "authors": "Size Zheng*, Siyuan Chen, Yun Liang",
+        "authors": "Size Zheng, Siyuan Chen, Yun Liang",
         "venue": "DAC",
         "year": "2023",
         "links": [
@@ -189,7 +211,7 @@ conferences = [
     {
         "id": "C6",
         "title": "Rubick: A Synthesis Framework for Spatial Architectures via Dataflow Decomposition",
-        "authors": "Zizhang Luo, Liqiang Lu, Size Zheng*, Jieming Yin, Jason Cong, Jianwei Yin, Yun Liang",
+        "authors": "Zizhang Luo, Liqiang Lu, Size Zheng, Jieming Yin, Jason Cong, Jianwei Yin, Yun Liang",
         "venue": "DAC",
         "year": "2023",
         "links": [
@@ -200,7 +222,7 @@ conferences = [
     {
         "id": "C5",
         "title": "Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion",
-        "authors": "Size Zheng*, Siyuan Chen, Peidi Song, Renze Chen, Xiuhong Li, Shengen Yan, Dahua Lin, Jingwen Leng, Yun Liang",
+        "authors": "Size Zheng, Siyuan Chen, Peidi Song, Renze Chen, Xiuhong Li, Shengen Yan, Dahua Lin, Jingwen Leng, Yun Liang",
         "venue": "HPCA",
         "year": "2023",
         "links": [
@@ -211,7 +233,7 @@ conferences = [
     {
         "id": "C4",
         "title": "AMOS: Enabling Automatic Mapping for Tensor Computations On Spatial Accelerators with Hardware Abstraction",
-        "authors": "Size Zheng*, Renze Chen, Anjiang Wei, Yicheng Jin, Qin Han, Liqiang Lu, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang",
+        "authors": "Size Zheng, Renze Chen, Anjiang Wei, Yicheng Jin, Qin Han, Liqiang Lu, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang",
         "venue": "ISCA",
         "year": "2022",
         "links": [
@@ -222,7 +244,7 @@ conferences = [
     {
         "id": "C3",
         "title": "HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation",
-        "authors": "Qingcheng Xiao, Size Zheng*, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang",
+        "authors": "Qingcheng Xiao, Size Zheng, Bingzhe Wu, Pengcheng Xu, Xuehai Qian, Yun Liang",
         "venue": "ISCA",
         "year": "2021",
         "links": [
@@ -233,7 +255,7 @@ conferences = [
     {
         "id": "C2",
         "title": "SuSy: A Programming Model for Productive Construction of High-Performance Systolic Arrays on FPGAs",
-        "authors": "Yi-Hsiang Lai, Hongbo Rong, Size Zheng*, Weihao Zhang, Xiuping Cui, Yunshan Jia, Jie Wang, Brendan Sullivan, Zhiru Zhang, Yun Liang, Youhui Zhang, Jason Cong, Nithin George, Jose Alvarez, Christopher J. Hughes, Pradeep Dubey",
+        "authors": "Yi-Hsiang Lai, Hongbo Rong, Size Zheng, Weihao Zhang, Xiuping Cui, Yunshan Jia, Jie Wang, Brendan Sullivan, Zhiru Zhang, Yun Liang, Youhui Zhang, Jason Cong, Nithin George, Jose Alvarez, Christopher J. Hughes, Pradeep Dubey",
         "venue": "ICCAD",
         "year": "2020",
         "links": [
@@ -244,7 +266,7 @@ conferences = [
     {
         "id": "C1",
         "title": "FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System",
-        "authors": "Size Zheng*, Yun Liang, Shuo Wang, Renze Chen, Kaiwen Sheng",
+        "authors": "Size Zheng, Yun Liang, Shuo Wang, Renze Chen, Kaiwen Sheng",
         "venue": "ASPLOS",
         "year": "2020",
         "links": [
