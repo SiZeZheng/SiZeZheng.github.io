@@ -20,26 +20,105 @@ I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PP
 
 
 # Research Interests
-<!-- My research interest is at distributed system, LLM inference/serving optimization, high-performance computing for machine learning, optimizing compiler design, and code generation. -->
-<ul>
-  <li><strong>High-performance Inference System</strong> System design for large language and vision models </li>
-  <li><strong>AI Compiler</strong> Compiler Design for the next generation of accelerators </li>
-  <li><strong>Distributed Systems</strong> Computation-communication co-optimization and automation </li>
-</ul>
 
+<style>
+  /* 美化研究兴趣列表样式 */
+  .interests-list {
+    list-style-type: none; /* 移除默认的列表样式 */
+    padding: 0;
+  }
+  .interests-list li {
+    margin-bottom: 15px; /* 增加每条研究兴趣之间的间距 */
+    padding: 10px;
+    border-left: 4px solid #28a745; /* 添加左侧边框 */
+    background-color: #f8f9fa; /* 添加背景颜色 */
+    border-radius: 4px; /* 添加圆角 */
+  }
+  .interests-list li strong {
+    color: #28a745; /* 设置研究兴趣标题颜色 */
+  }
+</style>
+
+<ul class="interests-list">
+  <li><strong>High-performance Inference System:</strong> System design for large language and vision models </li>
+  <li><strong>AI Compiler:</strong> Compiler Design for the next generation of accelerators </li>
+  <li><strong>Distributed Systems:</strong> Computation-communication co-optimization and automation </li>
+</ul>
 
 # Awards
 
-<ul>
+<style>
+  /* 美化奖项列表样式 */
+  .awards-list {
+    list-style-type: none; /* 移除默认的列表样式 */
+    padding: 0;
+  }
+  .awards-list li {
+    margin-bottom: 15px; /* 增加每条奖项之间的间距 */
+    padding: 10px;
+    border-left: 4px solid #dc3545; /* 添加左侧边框 */
+    background-color: #f8f9fa; /* 添加背景颜色 */
+    border-radius: 4px; /* 添加圆角 */
+  }
+  .awards-list li strong {
+    color: #dc3545; /* 设置奖项日期颜色 */
+  }
+</style>
+
+<ul class="awards-list">
   <li><strong>July 2024</strong> - Outstanding Doctoral Dissertation Award of Peking University</li>
   <li><strong>July 2024</strong> - Outstanding Ph.D. Graduate of both Beijing and Peking University</li>
 </ul>
 
+<!-- # Research Interests
+<!-- My research interest is at distributed system, LLM inference/serving optimization, high-performance computing for machine learning, optimizing compiler design, and code generation. -->
+<!-- <ul>
+  <li><strong>High-performance Inference System:</strong> System design for large language and vision models </li>
+  <li><strong>AI Compiler:</strong> Compiler Design for the next generation of accelerators </li>
+  <li><strong>Distributed Systems:</strong> Computation-communication co-optimization and automation </li>
+</ul> -->
 
-# News
+
+<!-- # Awards
+
+<ul>
+  <li><strong>July 2024</strong> - Outstanding Doctoral Dissertation Award of Peking University</li>
+  <li><strong>July 2024</strong> - Outstanding Ph.D. Graduate of both Beijing and Peking University</li>
+</ul> --> -->
+
+
+<!-- # News
 
 <ul>
   <li><strong>September 2024</strong> - Our paper <span style="color: red;">ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction</span> has been accepted by NeurIPS 2024!</li>
+  <li><strong>August 2024</strong> - Join ByteDance as TopSeed researcher </li>
+</ul> -->
+# News
+
+<style>
+  /* 美化新闻列表样式 */
+  .news-list {
+    list-style-type: none; /* 移除默认的列表样式 */
+    padding: 0;
+  }
+  .news-list li {
+    margin-bottom: 15px; /* 增加每条新闻之间的间距 */
+    padding: 10px;
+    border-left: 4px solid #007BFF; /* 添加左侧边框 */
+    background-color: #f8f9fa; /* 添加背景颜色 */
+    border-radius: 4px; /* 添加圆角 */
+  }
+  .news-list li strong {
+    color: #007BFF; /* 设置日期颜色 */
+  }
+  .news-list li span {
+    color: red; /* 设置论文标题颜色 */
+    font-weight: bold; /* 设置论文标题加粗 */
+  }
+</style>
+
+<ul class="news-list">
+  <li><strong>September 2024</strong> - Our paper <span>ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction</span> has been accepted by NeurIPS 2024!</li>
   <li><strong>August 2024</strong> - Join ByteDance as TopSeed researcher </li>
 </ul>
 <!-- <ul>
