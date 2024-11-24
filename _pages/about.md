@@ -28,14 +28,14 @@ I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PP
     padding: 0;
   }
   .interests-list li {
-    margin-bottom: 15px; /* 增加每条研究兴趣之间的间距 */
+    margin-bottom: 0px; /* 增加每条研究兴趣之间的间距 */
     padding: 10px;
     border-left: 4px solid #28a745; /* 添加左侧边框 */
     background-color: #f8f9fa; /* 添加背景颜色 */
     border-radius: 4px; /* 添加圆角 */
   }
   .interests-list li strong {
-    color: #28a745; /* 设置研究兴趣标题颜色 */
+    color: red; /* 设置研究兴趣标题颜色 */
   }
 </style>
 
@@ -61,13 +61,13 @@ I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PP
     border-radius: 4px; /* 添加圆角 */
   }
   .awards-list li strong {
-    color: #dc3545; /* 设置奖项日期颜色 */
+    color: red; /* 设置奖项日期颜色 */
   }
 </style>
 
 <ul class="awards-list">
-  <li><strong>July 2024</strong> - Outstanding Doctoral Dissertation Award of Peking University</li>
-  <li><strong>July 2024</strong> - Outstanding Ph.D. Graduate of both Beijing and Peking University</li>
+  <li><strong>July 2024</strong> Outstanding Doctoral Dissertation Award of Peking University</li>
+  <li><strong>July 2024</strong> Outstanding Ph.D. Graduate of both Beijing and Peking University</li>
 </ul>
 
 <!-- # Research Interests
@@ -84,7 +84,7 @@ I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PP
 <ul>
   <li><strong>July 2024</strong> - Outstanding Doctoral Dissertation Award of Peking University</li>
   <li><strong>July 2024</strong> - Outstanding Ph.D. Graduate of both Beijing and Peking University</li>
-</ul> --> -->
+</ul> -->
 
 
 <!-- # News
@@ -109,7 +109,7 @@ I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PP
     border-radius: 4px; /* 添加圆角 */
   }
   .news-list li strong {
-    color: #007BFF; /* 设置日期颜色 */
+    color: red; /* 设置日期颜色 */
   }
   .news-list li span {
     color: red; /* 设置论文标题颜色 */
@@ -118,8 +118,8 @@ I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PP
 </style>
 
 <ul class="news-list">
-  <li><strong>September 2024</strong> - Our paper <span>ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction</span> has been accepted by NeurIPS 2024!</li>
-  <li><strong>August 2024</strong> - Join ByteDance as TopSeed researcher </li>
+  <li><strong>September 2024</strong> Our paper <span>ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction</span> has been accepted by NeurIPS 2024!</li>
+  <li><strong>August 2024</strong> Join ByteDance as TopSeed researcher </li>
 </ul>
 <!-- <ul>
   <li><strong>September 2024</strong> - Our paper **ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction** has been accepted by NeurIPS 2024!</li>
