@@ -32,12 +32,12 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn
   .interests-list li {
     margin-bottom: 0px; /* 增加每条研究兴趣之间的间距 */
     padding: 10px;
-    border-left: 4px solid red; /* 添加左侧边框 */
+    border-left: 4px solid black; /* 添加左侧边框 */
     background-color: #f8f9fa; /* 添加背景颜色 */
     border-radius: 4px; /* 添加圆角 */
   }
   .interests-list li strong {
-    color: red; /* 设置研究兴趣标题颜色 */
+    color: black; /* 设置研究兴趣标题颜色 */
   }
 </style>
 
@@ -58,12 +58,12 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn
   .awards-list li {
     margin-bottom: 15px; /* 增加每条奖项之间的间距 */
     padding: 10px;
-    border-left: 4px solid red; /* 添加左侧边框 */
+    border-left: 4px solid black; /* 添加左侧边框 */
     background-color: #f8f9fa; /* 添加背景颜色 */
     border-radius: 4px; /* 添加圆角 */
   }
   .awards-list li strong {
-    color: red; /* 设置奖项日期颜色 */
+    color: black; /* 设置奖项日期颜色 */
   }
 </style>
 
@@ -106,12 +106,12 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn
   .news-list li {
     margin-bottom: 15px; /* 增加每条新闻之间的间距 */
     padding: 10px;
-    border-left: 4px solid red; /* 添加左侧边框 */
+    border-left: 4px solid black; /* 添加左侧边框 */
     background-color: #f8f9fa; /* 添加背景颜色 */
     border-radius: 4px; /* 添加圆角 */
   }
   .news-list li strong {
-    color: red; /* 设置日期颜色 */
+    color: black; /* 设置日期颜色 */
   }
   .news-list li span {
     color: red; /* 设置论文标题颜色 */
