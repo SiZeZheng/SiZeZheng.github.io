@@ -31,7 +31,7 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn
   .interests-list li {
     margin-bottom: 0px; /* 增加每条研究兴趣之间的间距 */
     padding: 10px;
-    border-left: 4px solid #28a745; /* 添加左侧边框 */
+    border-left: 4px solid red; /* 添加左侧边框 */
     background-color: #f8f9fa; /* 添加背景颜色 */
     border-radius: 4px; /* 添加圆角 */
   }
@@ -57,7 +57,7 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn
   .awards-list li {
     margin-bottom: 15px; /* 增加每条奖项之间的间距 */
     padding: 10px;
-    border-left: 4px solid #dc3545; /* 添加左侧边框 */
+    border-left: 4px solid red; /* 添加左侧边框 */
     background-color: #f8f9fa; /* 添加背景颜色 */
     border-radius: 4px; /* 添加圆角 */
   }
@@ -105,7 +105,7 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn
   .news-list li {
     margin-bottom: 15px; /* 增加每条新闻之间的间距 */
     padding: 10px;
-    border-left: 4px solid #007BFF; /* 添加左侧边框 */
+    border-left: 4px solid red; /* 添加左侧边框 */
     background-color: #f8f9fa; /* 添加背景颜色 */
     border-radius: 4px; /* 添加圆角 */
   }
