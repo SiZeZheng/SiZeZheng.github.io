@@ -9,6 +9,16 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+
+    <style>
+      /* 调整地图容器的大小 */
+      #clustrmaps-container {
+        width: 100%; /* 设置宽度为100% */
+        max-width: 600px; /* 设置最大宽度 */
+        height: 400px; /* 设置高度 */
+        margin: 0 auto; /* 居中显示 */
+      }
+    </style>
   </head>
 
   <body>
@@ -19,7 +29,9 @@ layout: compress
     {{ content }}
 
     <!-- <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=50sglwprmcd&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script> -->
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=BU8KRhKeWiY-F1E7C1_hErj2lCPJHoaAUC_5YqHcuxs&cl=ffffff&w=a"></script>
+    <div id="clustrmaps-container"></div>
+     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=BU8KRhKeWiY-F1E7C1_hErj2lCPJHoaAUC_5YqHcuxs&cl=ffffff&w=a"></script>
+    </div>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYQXC1HE5S"></script>
     <script>
