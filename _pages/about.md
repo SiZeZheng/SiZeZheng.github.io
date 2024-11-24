@@ -32,9 +32,9 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn
   .interests-list li {
     margin-bottom: 0px; /* 增加每条研究兴趣之间的间距 */
     padding: 10px;
-    border-left: 4px solid black; /* 添加左侧边框 */
+    border-left: 0px solid black; /* 添加左侧边框 */
     background-color: #f8f9fa; /* 添加背景颜色 */
-    border-radius: 4px; /* 添加圆角 */
+    border-radius: 0px; /* 添加圆角 */
   }
   .interests-list li strong {
     color: black; /* 设置研究兴趣标题颜色 */
