@@ -5,6 +5,27 @@ author_profile: true
 ---
 
 <!-- See a full list on  [Google Scholar](https://scholar.google.com/citations?user=_7Q8uIYAAAAJ&hl=en)   -->
+
+---
+
+## Thesis
+
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[P3]</div>
+        <div style="flex: 1;">
+            Compiler Design and Optimization for AI Chips<br>
+            <span style="color: #333; font-size: 0.9em;">
+                Size Zheng. <em>2024</em>
+            </span>
+            
+            <a href="../files/phd-thesis.pdf" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            
+            <a href="../files/phd-thesis.pdf" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
+            
+        </div>
+    </div>
+</div>
                
 ---
 
