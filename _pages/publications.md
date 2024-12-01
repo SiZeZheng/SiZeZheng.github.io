@@ -12,7 +12,7 @@ author_profile: true
 
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
-        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[P3]</div>
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[T1]</div>
         <div style="flex: 1;">
             Compiler Design and Optimization for AI Chips<br>
             <span style="color: #333; font-size: 0.9em;">
