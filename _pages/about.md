@@ -122,6 +122,8 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn or zhengsz [AT] 
 </style>
 
 <ul class="news-list">
+  <li><strong>January 2025</strong> Join Tsinghua-ByteDance Joint PostDoc Program </li>
+  <li><strong>December 2024</strong> Visit Vinod at Nvidia Redmond and give a technique talk </li>
   <li><strong>September 2024</strong> Our paper <span>ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction</span> has been accepted by NeurIPS 2024!</li>
   <li><strong>August 2024</strong> Join ByteDance as TopSeed researcher </li>
 </ul>
