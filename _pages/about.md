@@ -9,14 +9,16 @@ redirect_from:
 ---
 
 I am now machine learning system researcher scientist at ByteDance. I am in TopSeed program.
+I am also PostDoc at Tsinghua University and work with Proffessor [Jidong Zhai](https://pacman.cs.tsinghua.edu.cn/~zjd/) on distributed machine learning compilers for LLMs.
+
 <!-- I am also going to take the ByteDance-Tsinghua postdoc program by the end of 2024. -->
 I completed my Ph.D. in the School of CS at Peking University, where I was advised by [Prof. Yun Liang](https://ericlyun.github.io/). 
-I also worked with Professor [Luis Ceze](https://homes.cs.washington.edu/~luisceze/) on LLM serving and optimization from September 2023 to January 2024 as visiting Ph.D. in [SAMPL](https://sampl.cs.washington.edu/) at the University of Washington.
+I worked with Professor [Luis Ceze](https://homes.cs.washington.edu/~luisceze/) on LLM serving and optimization from September 2023 to January 2024 as visiting Ph.D. in [SAMPL](https://sampl.cs.washington.edu/) at the University of Washington.
 My recent publications investigate new algorithms, abstractions, and frameworks for efficient code generation on CPU and GPU. My research has been recognized with MICRO, ASPLOS, ISCA, HPCA, TPDS, DAC, and MLSys. I received my B.S. degree in the department of Computer Intelligence Science at Peking University.
 I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PPoPP, MLSys, ICS, and ICCAD.
 
 
-Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn
+Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn or zhengsz [AT] mail.tsinghua.edu.cn
 
 <span style="color: red;"><strong>I am seeking highly motivated full-time employees and research interns. If interested, please contact me directly!</strong></span> 
 
