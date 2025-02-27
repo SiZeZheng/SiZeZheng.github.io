@@ -125,6 +125,57 @@ author_profile: true
                
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C19]</div>
+        <div style="flex: 1;">
+            TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives<br>
+            <span style="color: #333; font-size: 0.9em;">
+                Size Zheng, Jin Fang, Xuegui Zheng, Qi Hou, Wenlei Bao, Ningxin Zheng, Ziheng Jiang, Dongyang Wang, Jianxi Ye, Haibin Lin, Li-Wen Chang, Xin Liu. <em>MLSys 2025</em>
+            </span>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
+            
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C18]</div>
+        <div style="flex: 1;">
+            COMET: Fine-grained Computation-communication Overlapping for Mixture-of-Experts<br>
+            <span style="color: #333; font-size: 0.9em;">
+                Shulai Zhang, Ningxin Zheng, Haibin Lin, Ziheng Jiang, Wenlei Bao, Chengquan Jiang, Qi Hou, Weihao Cui, Size Zheng, Li-Wen Chang, Quan Chen, Xin Liu. <em>MLSys 2025</em>
+            </span>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
+            
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C17]</div>
+        <div style="flex: 1;">
+            DyREM: Dynamically Mitigating Quantum Readout Error with Embedded Accelerator<br>
+            <span style="color: #333; font-size: 0.9em;">
+                Kaiwen Zhou, Liqiang Lu, Hanyu Zhang, Debin Xiang, Chenning Tao, xinkui zhao, Size Zheng and Jianwei Yin. <em>DAC 2025</em>
+            </span>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
+            
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
         <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C16]</div>
         <div style="flex: 1;">
             ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction<br>

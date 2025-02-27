@@ -99,9 +99,20 @@ conferences = [
     #     ]
     # },
     {
-        "id": "C18",
+        "id": "C19",
         "title": "TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives",
         "authors": "Size Zheng, Jin Fang, Xuegui Zheng, Qi Hou, Wenlei Bao, Ningxin Zheng, Ziheng Jiang, Dongyang Wang, Jianxi Ye, Haibin Lin, Li-Wen Chang, Xin Liu",
+        "venue": "MLSys",
+        "year": "2025",
+        "links": [
+            {"url": "", "text": "PDF"},
+            {"url": "", "text": "link"}
+        ]
+    },
+    {
+        "id": "C18",
+        "title": "COMET: Fine-grained Computation-communication Overlapping for Mixture-of-Experts",
+        "authors": "Shulai Zhang, Ningxin Zheng, Haibin Lin, Ziheng Jiang, Wenlei Bao, Chengquan Jiang, Qi Hou, Weihao Cui, Size Zheng, Li-Wen Chang, Quan Chen, Xin Liu",
         "venue": "MLSys",
         "year": "2025",
         "links": [
