@@ -99,6 +99,28 @@ conferences = [
     #     ]
     # },
     {
+        "id": "C18",
+        "title": "TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives",
+        "authors": "Size Zheng, Jin Fang, Xuegui Zheng, Qi Hou, Wenlei Bao, Ningxin Zheng, Ziheng Jiang, Dongyang Wang, Jianxi Ye, Haibin Lin, Li-Wen Chang, Xin Liu",
+        "venue": "MLSys",
+        "year": "2025",
+        "links": [
+            {"url": "", "text": "PDF"},
+            {"url": "", "text": "link"}
+        ]
+    },
+    {
+        "id": "C17",
+        "title": "DyREM: Dynamically Mitigating Quantum Readout Error with Embedded Accelerator",
+        "authors": "Kaiwen Zhou, Liqiang Lu, Hanyu Zhang, Debin Xiang, Chenning Tao, xinkui zhao, Size Zheng and Jianwei Yin",
+        "venue": "DAC",
+        "year": "2025",
+        "links": [
+            {"url": "", "text": "PDF"},
+            {"url": "", "text": "link"}
+        ]
+    },
+    {
         "id": "C16",
         "title": "ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction",
         "authors": "Renze Chen, Zhuofeng Wang, Beiquan Cao, Tong Wu, Size Zheng, Xiuhong Li, Xuechao Wei, Shengen Yan, Meng Li, Yun Liang",
