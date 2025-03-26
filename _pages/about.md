@@ -122,7 +122,10 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn or zhengsz [AT] 
 </style>
 
 <ul class="news-list">
-<li><strong>Februray 2025</strong> Our paper <span>TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives</span> has been accepted by MLSys 2025!</li>
+  <li><strong>March 2025</strong> Our paper <span>Qtenon: Towards Low-Latency Architecture Integration for Accelerating Hybrid Quantum-Classical Computing</span> has been accepted by ISCA 2025!</li>
+  <li><strong>Februray 2025</strong> Our paper <span>Comet: Fine-grained Computation-communication
+  Overlapping for Mixture-of-Experts</span> has been accepted by MLSys 2025!</li>
+  <li><strong>Februray 2025</strong> Our paper <span>TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives</span> has been accepted by MLSys 2025!</li>
   <li><strong>January 2025</strong> Join Tsinghua-ByteDance Joint PostDoc Program </li>
   <li><strong>December 2024</strong> Visit Vinod at Nvidia Redmond and give a technique talk </li>
   <li><strong>September 2024</strong> Our paper <span>ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction</span> has been accepted by NeurIPS 2024!</li>

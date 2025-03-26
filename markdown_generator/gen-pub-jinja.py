@@ -99,6 +99,17 @@ conferences = [
     #     ]
     # },
     {
+        "id": "C20",
+        "title": "Qtenon: Towards Low-Latency Architecture Integration for Accelerating Hybrid Quantum-Classical Computing",
+        "authors": "Chenning Tao, Liqiang Lu, Size Zheng, Li-Wen Chang, Minghua Shen, Hanyu Zhang, Fangxin Liu, Kaiwen Zhou, Jianwei Yin",
+        "venue": "ISCA",
+        "year": "2025",
+        "links": [
+            {"url": "", "text": "PDF"},
+            {"url": "", "text": "link"}
+        ]
+    },
+    {
         "id": "C19",
         "title": "TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives",
         "authors": "Size Zheng, Jin Fang, Xuegui Zheng, Qi Hou, Wenlei Bao, Ningxin Zheng, Ziheng Jiang, Dongyang Wang, Jianxi Ye, Haibin Lin, Li-Wen Chang, Xin Liu",

@@ -125,6 +125,23 @@ author_profile: true
                
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C20]</div>
+        <div style="flex: 1;">
+            Qtenon: Towards Low-Latency Architecture Integration for Accelerating Hybrid Quantum-Classical Computing<br>
+            <span style="color: #333; font-size: 0.9em;">
+                Chenning Tao, Liqiang Lu, Size Zheng, Li-Wen Chang, Minghua Shen, Hanyu Zhang, Fangxin Liu, Kaiwen Zhou, Jianwei Yin. <em>ISCA 2025</em>
+            </span>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
+            
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
         <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C19]</div>
         <div style="flex: 1;">
             TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives<br>
