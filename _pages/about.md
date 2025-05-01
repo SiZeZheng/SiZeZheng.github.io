@@ -123,7 +123,7 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn or zhengsz [AT] 
 </style>
 
 <ul class="news-list">
-  <li><strong>March 2025</strong> Our project <span>Triton-distributed</span> has been [released](https://github.com/ByteDance-Seed/Triton-distributed) </li>
+  <li><strong>March 2025</strong> Our project <span>Triton-distributed</span> has been released</li>
   <li><strong>May 2025</strong> Our papers <span>ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference</span> and <span>MxMoE: Mixed-precision Quantization for MoE with Accuracy and Performance Co-Design</span> have been accepted by ICML 2025!</li>
   <li><strong>March 2025</strong> Our paper <span>Qtenon: Towards Low-Latency Architecture Integration for Accelerating Hybrid Quantum-Classical Computing</span> has been accepted by ISCA 2025!</li>
   <li><strong>Februray 2025</strong> Our paper <span>Comet: Fine-grained Computation-communication
