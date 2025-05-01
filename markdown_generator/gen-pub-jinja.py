@@ -3,6 +3,17 @@ from jinja2 import Environment, FileSystemLoader
 # Define your papers here
 preprints = [
     {
+        "id": "P4",
+        "title": "Triton-distributed: Programming Overlapping Kernels on Distributed AI Systems with the Triton Compiler",
+        "authors": "Size Zheng, Wenlei Bao, Qi Hou, Xuegui Zheng, Jin Fang, Chenhui Huang, Tianqi Li, Haojie Duanmu, Renze Chen, Ruifan Xu, Yifan Guo, Ningxin Zheng, Ziheng Jiang, Xinyi Di, Dongyang Wang, Jianxi Ye, Haibin Lin, Li-Wen Chang, Liqiang Lu, Yun Liang, Jidong Zhai, Xin Liu",
+        "venue": "arXiv",
+        "year": "2025",
+        "links": [
+            {"url": "https://arxiv.org/abs/2504.19442", "text": "PDF"},
+            {"url": "https://arxiv.org/abs/2504.19442", "text": "link"}
+        ]
+    },
+    {
         "id": "P3",
         "title": "ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference",
         "authors": "Hanshi Sun, Li-Wen Chang, Wenlei Bao, Size Zheng, Ningxin Zheng, Xin Liu, Harry Dong, Yuejie Chi, Beidi Chen",
@@ -98,6 +109,28 @@ conferences = [
     #         {"url": "", "text": "link"}
     #     ]
     # },
+    {
+        "id": "C22",
+        "title": "ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference",
+        "authors": "Hanshi Sun, Li-Wen Chang, Wenlei Bao, Size Zheng, Ningxin Zheng, Xin Liu, Harry Dong, Yuejie Chi, Beidi Chen",
+        "venue": "ICML",
+        "year": "2025",
+        "links": [
+            {"url": "", "text": "PDF"},
+            {"url": "", "text": "link"}
+        ]
+    },
+    {
+        "id": "C21",
+        "title": "MxMoE: Mixed-precision Quantization for MoE with Accuracy and Performance Co-Design",
+        "authors": "Haojie Duanmu, Xiuhong Li, Zhihang Yuan, Size Zheng, Jiangfei Duan, Xingcheng Zhang, Dahua Lin",
+        "venue": "ICML",
+        "year": "2025",
+        "links": [
+            {"url": "", "text": "PDF"},
+            {"url": "", "text": "link"}
+        ]
+    },
     {
         "id": "C20",
         "title": "Qtenon: Towards Low-Latency Architecture Integration for Accelerating Hybrid Quantum-Classical Computing",

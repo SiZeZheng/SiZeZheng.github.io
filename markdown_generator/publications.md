@@ -13,6 +13,23 @@ author_profile: true
                
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[P4]</div>
+        <div style="flex: 1;">
+            Triton-distributed: Programming Overlapping Kernels on Distributed AI Systems with the Triton Compiler<br>
+            <span style="color: #333; font-size: 0.9em;">
+                Size Zheng, Wenlei Bao, Qi Hou, Xuegui Zheng, Jin Fang, Chenhui Huang, Tianqi Li, Haojie Duanmu, Renze Chen, Ruifan Xu, Yifan Guo, Ningxin Zheng, Ziheng Jiang, Xinyi Di, Dongyang Wang, Jianxi Ye, Haibin Lin, Li-Wen Chang, Liqiang Lu, Yun Liang, Jidong Zhai, Xin Liu. <em>arXiv 2025</em>
+            </span>
+            
+            <a href="https://arxiv.org/abs/2504.19442" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            
+            <a href="https://arxiv.org/abs/2504.19442" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
+            
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
         <div style="min-width: 40px; text-align: right; margin-right: 10px;">[P3]</div>
         <div style="flex: 1;">
             ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference<br>
@@ -123,6 +140,40 @@ author_profile: true
 
 ## Conference     
                
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C22]</div>
+        <div style="flex: 1;">
+            ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference<br>
+            <span style="color: #333; font-size: 0.9em;">
+                Hanshi Sun, Li-Wen Chang, Wenlei Bao, Size Zheng, Ningxin Zheng, Xin Liu, Harry Dong, Yuejie Chi, Beidi Chen. <em>ICML 2025</em>
+            </span>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
+            
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C21]</div>
+        <div style="flex: 1;">
+            MxMoE: Mixed-precision Quantization for MoE with Accuracy and Performance Co-Design<br>
+            <span style="color: #333; font-size: 0.9em;">
+                Haojie Duanmu, Xiuhong Li, Zhihang Yuan, Size Zheng, Jiangfei Duan, Xingcheng Zhang, Dahua Lin. <em>ICML 2025</em>
+            </span>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[PDF]</a>
+            
+            <a href="" style="margin-left: 10px; text-decoration: none; color: #007bff;">[link]</a>
+            
+        </div>
+    </div>
+</div>
+
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
         <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C20]</div>

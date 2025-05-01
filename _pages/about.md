@@ -10,6 +10,7 @@ redirect_from:
 
 I am now machine learning system researcher scientist at ByteDance. I am in TopSeed program.
 I am also PostDoc at Tsinghua University and work with Professor [Jidong Zhai](https://pacman.cs.tsinghua.edu.cn/~zjd/) on distributed machine learning compilers for LLMs.
+I lead the [Triton-distributed](https://github.com/ByteDance-Seed/Triton-distributed) project at ByteDance.
 
 <!-- I am also going to take the ByteDance-Tsinghua postdoc program by the end of 2024. -->
 I completed my Ph.D. in the School of CS at Peking University, where I was advised by [Prof. Yun Liang](https://ericlyun.github.io/). 
@@ -122,6 +123,8 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn or zhengsz [AT] 
 </style>
 
 <ul class="news-list">
+  <li><strong>March 2025</strong> Our project <span>Triton-distributed</span> has been [released](https://github.com/ByteDance-Seed/Triton-distributed) </li>
+  <li><strong>May 2025</strong> Our papers <span>ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference</span> and <span>MxMoE: Mixed-precision Quantization for MoE with Accuracy and Performance Co-Design</span> have been accepted by ICML 2025!</li>
   <li><strong>March 2025</strong> Our paper <span>Qtenon: Towards Low-Latency Architecture Integration for Accelerating Hybrid Quantum-Classical Computing</span> has been accepted by ISCA 2025!</li>
   <li><strong>Februray 2025</strong> Our paper <span>Comet: Fine-grained Computation-communication
   Overlapping for Mixture-of-Experts</span> has been accepted by MLSys 2025!</li>
