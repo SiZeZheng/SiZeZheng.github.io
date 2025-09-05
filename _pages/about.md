@@ -15,6 +15,7 @@ I lead the [Triton-distributed](https://github.com/ByteDance-Seed/Triton-distrib
 <!-- I am also going to take the ByteDance-Tsinghua postdoc program by the end of 2024. -->
 I completed my Ph.D. in the School of CS at Peking University, where I was advised by [Prof. Yun Liang](https://ericlyun.github.io/). 
 I worked with Professor [Luis Ceze](https://homes.cs.washington.edu/~luisceze/) on LLM serving and optimization from September 2023 to January 2024 as visiting Ph.D. in [SAMPL](https://sampl.cs.washington.edu/) at the University of Washington.
+After this, I worked at DeepSeek AI for a short term as research intern.
 My recent publications investigate new algorithms, abstractions, and frameworks for efficient code generation on CPU and GPU. My research has been recognized with MICRO, ASPLOS, ISCA, HPCA, TPDS, DAC, and MLSys. I received my B.S. degree in the department of Computer Intelligence Science at Peking University.
 I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PPoPP, MLSys, ICS, and ICCAD.
 
