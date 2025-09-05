@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am now machine learning system researcher scientist at ByteDance. I am in TopSeed program.
-I am also PostDoc at Tsinghua University and work with Professor [Jidong Zhai](https://pacman.cs.tsinghua.edu.cn/~zjd/) on distributed machine learning compilers for LLMs.
+<!-- I am now machine learning system researcher scientist at ByteDance. I am in TopSeed program. -->
+<!-- I am also PostDoc at Tsinghua University and work with Professor [Jidong Zhai](https://pacman.cs.tsinghua.edu.cn/~zjd/) on distributed machine learning compilers for LLMs. -->
 I lead the [Triton-distributed](https://github.com/ByteDance-Seed/Triton-distributed) project at ByteDance.
 
 <!-- I am also going to take the ByteDance-Tsinghua postdoc program by the end of 2024. -->
@@ -129,10 +129,10 @@ Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn or zhengsz [AT] 
   <li><strong>Februray 2025</strong> Our paper <span>Comet: Fine-grained Computation-communication
   Overlapping for Mixture-of-Experts</span> has been accepted by MLSys 2025!</li>
   <li><strong>Februray 2025</strong> Our paper <span>TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives</span> has been accepted by MLSys 2025!</li>
-  <li><strong>January 2025</strong> Join Tsinghua-ByteDance Joint PostDoc Program </li>
+  <!-- <li><strong>January 2025</strong> Join Tsinghua-ByteDance Joint PostDoc Program </li> -->
   <li><strong>December 2024</strong> Visit Vinod at Nvidia Redmond and give a technique talk </li>
   <li><strong>September 2024</strong> Our paper <span>ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction</span> has been accepted by NeurIPS 2024!</li>
-  <li><strong>August 2024</strong> Join ByteDance as TopSeed researcher </li>
+  <!-- <li><strong>August 2024</strong> Join ByteDance as TopSeed researcher </li> -->
 </ul>
 <!-- <ul>
   <li><strong>September 2024</strong> - Our paper **ArkVale: Efficient Generative LLM Inference with Recallable Key-Value Eviction** has been accepted by NeurIPS 2024!</li>
