@@ -10,7 +10,7 @@ redirect_from:
 
 <!-- I am now machine learning system researcher scientist at ByteDance. I am in TopSeed program. -->
 <!-- I am also PostDoc at Tsinghua University and work with Professor [Jidong Zhai](https://pacman.cs.tsinghua.edu.cn/~zjd/) on distributed machine learning compilers for LLMs. -->
-I lead the [Triton-distributed](https://github.com/ByteDance-Seed/Triton-distributed) project at ByteDance.
+I led the [Triton-distributed](https://github.com/ByteDance-Seed/Triton-distributed) project at ByteDance.
 
 <!-- I am also going to take the ByteDance-Tsinghua postdoc program by the end of 2024. -->
 I completed my Ph.D. in the School of CS at Peking University, where I was advised by [Prof. Yun Liang](https://ericlyun.github.io/). 
@@ -20,9 +20,9 @@ My recent publications investigate new algorithms, abstractions, and frameworks 
 I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PPoPP, MLSys, ICS, and ICCAD.
 
 
-Email: zheng.size [AT] bytedance.com or zhengsz [AT] pku.edu.cn or zhengsz [AT] mail.tsinghua.edu.cn
+Email: zheng.size [AT] outlook.com
 
-<span style="color: red;"><strong>I am seeking highly motivated full-time employees and research interns. If interested, please contact me directly!</strong></span> 
+<!-- <span style="color: red;"><strong>I am seeking highly motivated full-time employees and research interns. If interested, please contact me directly!</strong></span>  -->
 
 
 # Research Interests
