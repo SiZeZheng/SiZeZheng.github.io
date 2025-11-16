@@ -18,11 +18,49 @@ See more info at https://academicpages.github.io/
 
 ## To run locally (not on GitHub Pages, to serve on your own computer)
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+### Prerequisites
+
+1. Install Ruby and Bundler:
+   - **macOS**: `brew install ruby` (or use system Ruby if available)
+   - **Linux**: `sudo apt install ruby-dev ruby-bundler nodejs`
+   - **Windows**: Use [RubyInstaller](https://rubyinstaller.org/)
+
+2. Install Python dependencies (for generating publications):
+   ```bash
+   pip install jinja2
+   # or
+   pip3 install jinja2
+   ```
+
+### Running the Site Locally
+
+1. Clone the repository and navigate to the project directory
+2. Install Jekyll dependencies:
+   ```bash
+   bundle clean
+   bundle install
+   ```
+   If you get errors, delete `Gemfile.lock` and try again.
+
+3. Generate publications page (if you've updated publications data):
+   ```bash
+   cd markdown_generator
+   python gen-pub-jinja.py
+   # or
+   python3 gen-pub-jinja.py
+   cd ..
+   ```
+
+4. Start the Jekyll server:
+   ```bash
+   bundle exec jekyll serve
+   # or for live reload:
+   bundle exec jekyll serve --livereload
+   ```
+
+5. Open your browser and visit `http://localhost:4000`
+
+The local server will automatically rebuild and refresh the pages when you make changes.
 
 # Changelog -- bugfixes and enhancements
 

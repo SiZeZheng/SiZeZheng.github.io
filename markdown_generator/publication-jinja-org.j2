@@ -4,7 +4,7 @@
         <div style="min-width: 140px; text-align: left; margin-right: 10px; flex-shrink: 0;">[{{ paper.id }}]</div>
         <div style="flex: 1;">
             {{ paper.title }}<br>
-            <span style="color: #333; font-size: 0.9em; font-weight: normal;">{% set authors_list = paper.authors.split(', ') %}{% for author in authors_list %}{% if author.strip() == 'Size Zheng' %}<strong style="color:rgb(9, 24, 241); font-weight: bold;">Size Zheng</strong>{% else %}<span style="font-weight: normal;">{{ author }}</span>{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}. <em>{{ paper.venue }} {{ paper.year }}</em></span>
+            <span style="color: #333; font-size: 0.9em; font-weight: normal;">{% set authors_list = paper.authors.split(', ') %}{% for author in authors_list %}{% if author.strip() == 'Size Zheng' %}<strong style="color:rgb(8, 44, 247); font-weight: bold;">Size Zheng</strong>{% else %}<span style="font-weight: normal;">{{ author }}</span>{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}. <em>{{ paper.venue }} {{ paper.year }}</em></span>
             {% for link in paper.links %}
             <a href="{{ link.url }}" style="margin-left: 10px; text-decoration: none; color: #007bff;">[{{ link.text }}]</a>
             {% endfor %}

@@ -8,15 +8,23 @@ redirect_from:
   - /about.html
 ---
 
+<div style="text-align: center; margin: 30px 0;">
+    <a href="{{ base_path }}/cv/" onclick="event.preventDefault(); window.location.href='{{ base_path }}/cv/';" 
+       style="display: inline-block; background-color: #8B0000; color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-size: 18px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s;">
+        📄 Download CV (PDF)
+    </a>
+</div>
+
 <!-- I am now machine learning system researcher scientist at ByteDance. I am in TopSeed program. -->
 <!-- I am also PostDoc at Tsinghua University and work with Professor [Jidong Zhai](https://pacman.cs.tsinghua.edu.cn/~zjd/) on distributed machine learning compilers for LLMs. -->
-I led the [Triton-distributed](https://github.com/ByteDance-Seed/Triton-distributed) project at ByteDance.
+I lead the [Triton-distributed](https://github.com/ByteDance-Seed/Triton-distributed) project at ByteDance Seed.
 
 <!-- I am also going to take the ByteDance-Tsinghua postdoc program by the end of 2024. -->
 I completed my Ph.D. in the School of CS at Peking University, where I was advised by [Prof. Yun Liang](https://ericlyun.github.io/). 
 I worked with Professor [Luis Ceze](https://homes.cs.washington.edu/~luisceze/) on LLM serving and optimization from September 2023 to January 2024 as visiting Ph.D. in [SAMPL](https://sampl.cs.washington.edu/) at the University of Washington.
 After this, I worked at DeepSeek AI for a short term as research intern.
-My recent publications investigate new algorithms, abstractions, and frameworks for efficient code generation on CPU and GPU. My research has been recognized with MICRO, ASPLOS, ISCA, HPCA, TPDS, DAC, and MLSys. I received my B.S. degree in the department of Computer Intelligence Science at Peking University.
+At 2024, I joined ByteDance Seed as Machine Learning System Researcher Scientist.
+My recent publications investigate new algorithms, abstractions, and frameworks for efficient training and inference on CPU and GPU. My research has been recognized with MICRO, ASPLOS, ISCA, HPCA, TPDS, DAC, and MLSys. I received my B.S. degree in the department of Computer Intelligence Science at Peking University.
 I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PPoPP, MLSys, ICS, and ICCAD.
 
 
