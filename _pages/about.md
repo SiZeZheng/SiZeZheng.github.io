@@ -25,7 +25,7 @@ I worked with Professor [Luis Ceze](https://homes.cs.washington.edu/~luisceze/) 
 After this, I worked at DeepSeek AI for a short term as research intern.
 At 2024, I joined ByteDance Seed as Machine Learning System Researcher Scientist.
 My recent publications investigate new algorithms, abstractions, and frameworks for efficient training and inference on CPU and GPU. My research has been recognized with MICRO, ASPLOS, ISCA, HPCA, TPDS, DAC, and MLSys. I received my B.S. degree in the department of Computer Intelligence Science at Peking University.
-I am PC member of ChinaSys; reviewer of TPDS and TACO; sub-reviewer of MICRO, PPoPP, MLSys, ICS, and ICCAD.
+I am PC member of ChinaSys; reviewer of ICLR, TPDS and TACO; sub-reviewer of MICRO, PPoPP, MLSys, ICS, and ICCAD.
 
 
 Email: zheng.size [AT] outlook.com

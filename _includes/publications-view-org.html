@@ -1,0 +1,27 @@
+{% assign pub_page = site.pages | where: "permalink", "/publications/" | first %}
+{% if pub_page %}
+    {% assign pub_content = pub_page.content %}
+    {% assign view_org_start = '<div id="view-org" class="publication-view active">' %}
+    {% assign script_start = '<script>' %}
+    {% if pub_content contains view_org_start %}
+        {% assign after_start = pub_content | split: view_org_start | last %}
+        {% assign before_script = after_start | split: script_start | first %}
+        {% comment %} Remove the closing </div> of view-org (it's the last </div> before script) {% endcomment %}
+        {% assign div_parts = before_script | split: '</div>' %}
+        {% comment %} Join all parts except the last one {% endcomment %}
+        {% assign view_org_content = '' %}
+        {% assign parts_count = div_parts.size | minus: 1 %}
+        {% for i in (0..parts_count) %}
+            {% assign idx = forloop.index0 %}
+            {% if idx < parts_count %}
+                {% if idx == 0 %}
+                    {% assign view_org_content = div_parts[idx] %}
+                {% else %}
+                    {% assign view_org_content = view_org_content | append: '</div>' | append: div_parts[idx] %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        <div id="view-org" class="publication-view active">{{ view_org_content }}</div>
+    {% endif %}
+{% endif %}
+

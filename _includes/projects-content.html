@@ -1,0 +1,70 @@
+{% include base_path %}
+
+{% assign projects_page = site.pages | where: "permalink", "/projects/" | first %}
+{% if projects_page %}
+    {% assign raw_content = projects_page.content %}
+    
+    {% comment %} Get content after front matter {% endcomment %}
+    {% assign parts = raw_content | split: '---' %}
+    {% if parts.size >= 3 %}
+        {% assign content = parts[2] %}
+    {% else %}
+        {% assign content = raw_content %}
+    {% endif %}
+    
+    {% comment %} Remove base_path include - build markers as strings to avoid execution {% endcomment %}
+    {% assign open_brace = '{' %}
+    {% assign percent = '%' %}
+    {% assign close_brace = '}' %}
+    {% assign open_tag = open_brace | append: percent %}
+    {% assign close_tag = percent | append: close_brace %}
+    {% assign include_text = ' include base_path ' %}
+    {% assign marker1 = open_tag | append: include_text | append: close_tag %}
+    {% assign include_text2 = 'include base_path' %}
+    {% assign marker2 = open_tag | append: include_text2 | append: close_tag %}
+    {% assign step1 = content | remove: marker1 %}
+    {% assign step2 = step1 | remove: marker2 %}
+    {% comment %} Try to remove any partial matches that might be left {% endcomment %}
+    {% assign step3 = step2 | remove: ' include base_path ' %}
+    {% assign cleaned = step3 %}
+    
+    {% comment %} Replace {{ base_path }} with actual base_path value {% endcomment %}
+    {% assign base_path_placeholder = '{{ base_path }}' %}
+    {% assign with_base_path = cleaned | replace: base_path_placeholder, base_path %}
+    
+    {% comment %} Remove script tags {% endcomment %}
+    {% assign script_split = with_base_path | split: '<script>' %}
+    {% if script_split.size > 1 %}
+        {% assign before_script = script_split[0] %}
+        {% assign after_script = script_split[1] | split: '</script>' | last %}
+        {% assign no_script = before_script | append: after_script %}
+    {% else %}
+        {% assign no_script = with_base_path %}
+    {% endif %}
+    
+    {% comment %} Remove style tags {% endcomment %}
+    {% assign style_split = no_script | split: '<style>' %}
+    {% if style_split.size > 1 %}
+        {% assign before_style = style_split[0] %}
+        {% assign after_style = style_split[1] | split: '</style>' | last %}
+        {% assign no_style = before_style | append: after_style %}
+    {% else %}
+        {% assign no_style = no_script %}
+    {% endif %}
+    
+    {% comment %} Remove project images completely to prevent loading in CV {% endcomment %}
+    {% comment %} Strategy: Replace img src with empty string and add display:none to prevent browser from loading {% endcomment %}
+    {% assign no_images1 = no_style | replace: 'src="', 'data-cv-src="' %}
+    {% assign no_images2 = no_images1 | replace: '<img ', '<img src="" style="display: none !important; width: 0; height: 0;" ' %}
+    {% assign no_images3 = no_images2 | replace: '<div class="project-image-container"', '<div class="project-image-container" style="display: none !important; visibility: hidden; height: 0; overflow: hidden;"' %}
+    
+    {% comment %} Also hide image placeholder text {% endcomment %}
+    {% assign no_images4 = no_images3 | replace: 'id="image-placeholder"', 'id="image-placeholder" style="display: none !important;"' %}
+    
+    {% comment %} Simple replacements for links {% endcomment %}
+    {% assign step1 = no_images4 | replace: 'class="project-link"', 'style="color: #007bff; text-decoration: none;"' %}
+    {% assign step2 = step1 | replace: 'class="project-link project-link-secondary"', 'style="color: #007bff; text-decoration: none;"' %}
+    {% assign final = step2 | replace: '<div class="project-links">', '<div class="project-links" style="display: block;">' %}
+    
+    {{ final }}
+{% endif %}

@@ -60,180 +60,141 @@ author_profile: true
     </div>
 </div>
 
-<!-- Pinned Projects -->
-<h2 style="margin-top: 40px; margin-bottom: 20px; color: #8B0000;">Pinned Projects</h2>
-<div id="pinned-projects-container">
-    <p style="text-align: center; color: #666;">Loading pinned projects...</p>
+<!-- Other Projects -->
+<h2 style="margin-top: 40px; margin-bottom: 20px; color: #8B0000;">Other Open Source Projects</h2>
+
+<!-- FlexTensor -->
+<div class="project-card">
+    <div class="project-header">
+        <h2 class="project-title">FlexTensor</h2>
+        <div class="project-badges" id="flextensor-badges">
+            <span class="badge badge-stars">⭐ Loading...</span>
+            <span class="badge badge-license">MIT License</span>
+        </div>
+    </div>
+    <div class="project-description">
+        <p>
+            <strong>FlexTensor</strong> is an automatic schedule exploration and optimization framework for tensor computation on heterogeneous systems. 
+            It can optimize tensor computation programs without human interference, allowing programmers to only work on high-level programming abstraction 
+            without considering the hardware platform details.
+        </p>
+        <p>
+            FlexTensor systematically explores the optimization design spaces that are composed of many different schedules for different hardware. 
+            Then, FlexTensor combines different exploration techniques, including heuristic method and machine learning method to find the optimized schedule configuration.
+        </p>
+    </div>
+    <div class="project-links">
+        <a href="https://github.com/pku-liang/FlexTensor" target="_blank" class="project-link">
+            📦 GitHub Repository
+        </a>
+    </div>
+</div>
+
+<!-- compiler-and-arch -->
+<div class="project-card">
+    <div class="project-header">
+        <h2 class="project-title">compiler-and-arch</h2>
+        <div class="project-badges" id="compiler-arch-badges">
+            <span class="badge badge-stars">⭐ Loading...</span>
+        </div>
+    </div>
+    <div class="project-description">
+        <p>
+            <strong>compiler-and-arch</strong> is a curated list of tutorials, papers, talks, and open-source projects for emerging compiler and architecture research. 
+            This repository serves as a comprehensive resource for researchers and practitioners interested in compiler design and computer architecture.
+        </p>
+    </div>
+    <div class="project-links">
+        <a href="https://github.com/KnowingNothing/compiler-and-arch" target="_blank" class="project-link">
+            📦 GitHub Repository
+        </a>
+    </div>
+</div>
+
+<!-- AMOS -->
+<div class="project-card">
+    <div class="project-header">
+        <h2 class="project-title">AMOS</h2>
+        <div class="project-badges" id="amos-badges">
+            <span class="badge badge-stars">⭐ Loading...</span>
+        </div>
+    </div>
+    <div class="project-description">
+        <p>
+            <strong>AMOS</strong> (Automatic Mapping Generation, Verification, and Exploration for ISA-based Spatial Accelerators) is a framework for automatic mapping generation and optimization for spatial accelerators. 
+            It provides tools for exploring and optimizing mappings for various hardware accelerators.
+        </p>
+    </div>
+    <div class="project-links">
+        <a href="https://github.com/pku-liang/AMOS" target="_blank" class="project-link">
+            📦 GitHub Repository
+        </a>
+    </div>
+</div>
+
+<!-- MatmulTutorial -->
+<div class="project-card">
+    <div class="project-header">
+        <h2 class="project-title">MatmulTutorial</h2>
+        <div class="project-badges" id="matmul-badges">
+            <span class="badge badge-stars">⭐ Loading...</span>
+        </div>
+    </div>
+    <div class="project-description">
+        <p>
+            <strong>MatmulTutorial</strong> is an easy-to-understand TensorOp Matmul tutorial that provides comprehensive guides for understanding matrix multiplication operations on modern accelerators. 
+            It offers detailed explanations and examples for implementing efficient matrix multiplication kernels.
+        </p>
+    </div>
+    <div class="project-links">
+        <a href="https://github.com/KnowingNothing/MatmulTutorial" target="_blank" class="project-link">
+            📦 GitHub Repository
+        </a>
+    </div>
 </div>
 
 <script>
-// GitHub API configuration
-const GITHUB_USERNAME = 'KnowingNothing';
-const PINNED_CACHE_KEY = 'github_pinned_projects_cache';
-const PINNED_CACHE_TIMESTAMP_KEY = 'github_pinned_projects_cache_timestamp';
-const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
-
-// Cache management functions
-function getCachedPinnedProjects() {
-    try {
-        const cached = localStorage.getItem(PINNED_CACHE_KEY);
-        const timestamp = localStorage.getItem(PINNED_CACHE_TIMESTAMP_KEY);
-        
-        if (cached && timestamp) {
-            const age = Date.now() - parseInt(timestamp, 10);
-            if (age < CACHE_DURATION) {
-                return JSON.parse(cached);
-            }
-        }
-    } catch (error) {
-        console.warn('Error reading pinned projects cache:', error);
-    }
-    return null;
-}
-
-function setCachedPinnedProjects(repos) {
-    try {
-        localStorage.setItem(PINNED_CACHE_KEY, JSON.stringify(repos));
-        localStorage.setItem(PINNED_CACHE_TIMESTAMP_KEY, Date.now().toString());
-    } catch (error) {
-        console.warn('Error writing pinned projects cache:', error);
-    }
-}
-
-// Fetch pinned repositories (using REST API to get top repos by stars)
-// Note: GitHub REST API doesn't have a direct endpoint for pinned repos,
-// so we fetch all repos and sort by stars to get the most important ones
-async function fetchPinnedRepositories() {
-    try {
-        // Fetch all repositories (owned and contributed)
-        const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=stars&per_page=100&type=all`);
-        if (!response.ok) {
-            throw new Error('Failed to fetch GitHub repositories: ' + response.status);
-        }
-        const repos = await response.json();
-        
-        // Filter out forked repositories and sort by stars (descending)
-        const sortedRepos = repos
-            .filter(repo => !repo.fork)
-            .sort((a, b) => b.stargazers_count - a.stargazers_count)
-            .slice(0, 6); // Get top 6 repositories
-        
-        // Update cache
-        setCachedPinnedProjects(sortedRepos);
-        
-        return sortedRepos;
-    } catch (error) {
-        console.error('Error fetching pinned repositories:', error);
-        return [];
-    }
-}
-
-// Escape HTML to prevent XSS
-function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-}
-
-// Render project card
-function renderProjectCard(repo) {
-    const stars = repo.stargazers_count || 0;
-    const forks = repo.forks_count || 0;
-    const description = escapeHtml(repo.description || 'No description available.');
-    const homepage = repo.homepage;
-    const name = escapeHtml(repo.name);
-    const licenseName = repo.license ? (repo.license.spdx_id || 'License') : null;
-    const language = repo.language || '';
+// Load GitHub stats for projects (optional, non-blocking)
+async function loadProjectStats() {
+    const projects = [
+        { repo: 'pku-liang/FlexTensor', badgeId: 'flextensor-badges' },
+        { repo: 'KnowingNothing/compiler-and-arch', badgeId: 'compiler-arch-badges' },
+        { repo: 'pku-liang/AMOS', badgeId: 'amos-badges' },
+        { repo: 'KnowingNothing/MatmulTutorial', badgeId: 'matmul-badges' }
+    ];
     
-    return `
-        <div class="project-card">
-            <div class="project-header">
-                <h2 class="project-title">${name}</h2>
-                <div class="project-badges">
-                    <span class="badge badge-stars">⭐ ${stars} stars</span>
-                    ${forks > 0 ? `<span class="badge badge-forks">🍴 ${forks} forks</span>` : ''}
-                    ${licenseName ? `<span class="badge badge-license">${escapeHtml(licenseName)}</span>` : ''}
-                    ${language ? `<span class="badge badge-language">${escapeHtml(language)}</span>` : ''}
-                </div>
-            </div>
-            
-            <div class="project-description">
-                <p>${description}</p>
-            </div>
-            
-            <div class="project-links">
-                <a href="${repo.html_url}" target="_blank" class="project-link">
-                    📦 GitHub Repository
-                </a>
-                ${homepage ? `<a href="${escapeHtml(homepage)}" target="_blank" class="project-link project-link-secondary">🌐 Website</a>` : ''}
-            </div>
-        </div>
-    `;
-}
-
-// Load and display pinned projects
-async function loadPinnedProjects() {
-    const container = document.getElementById('pinned-projects-container');
-    if (!container) {
-        console.error('Pinned projects container not found');
-        return;
-    }
-    
-    // Try to load from cache first
-    const cachedRepos = getCachedPinnedProjects();
-    if (cachedRepos && cachedRepos.length > 0) {
-        // Display cached data immediately
-        container.innerHTML = cachedRepos.map(repo => renderProjectCard(repo)).join('');
-        
-        // Refresh cache in background
-        fetchPinnedRepositories().then(repos => {
-            if (repos && repos.length > 0) {
-                container.innerHTML = repos.map(repo => renderProjectCard(repo)).join('');
-            }
-        }).catch(error => {
-            console.warn('Background refresh of pinned projects failed:', error);
-            // Keep showing cached data
-        });
-    } else {
-        // No cache, show loading and fetch
-        container.innerHTML = '<p style="text-align: center; color: #666;">Loading pinned projects...</p>';
-        
+    projects.forEach(async ({ repo, badgeId }) => {
         try {
-            const repos = await fetchPinnedRepositories();
-            
-            if (repos.length === 0) {
-                container.innerHTML = '<p style="text-align: center; color: #666;">No pinned projects found.</p>';
-                return;
+            const response = await fetch(`https://api.github.com/repos/${repo}`);
+            if (response.ok) {
+                const data = await response.json();
+                const stars = data.stargazers_count || 0;
+                const forks = data.forks_count || 0;
+                const license = data.license ? data.license.spdx_id : null;
+                const language = data.language || '';
+                const badgeEl = document.getElementById(badgeId);
+                if (badgeEl) {
+                    let html = `<span class="badge badge-stars">⭐ ${stars} stars</span>`;
+                    if (forks > 0) {
+                        html += `<span class="badge badge-forks">🍴 ${forks} forks</span>`;
+                    }
+                    if (license) {
+                        html += `<span class="badge badge-license">${license}</span>`;
+                    }
+                    if (language) {
+                        html += `<span class="badge badge-language">${language}</span>`;
+                    }
+                    badgeEl.innerHTML = html;
+                }
             }
-            
-            container.innerHTML = repos.map(repo => renderProjectCard(repo)).join('');
         } catch (error) {
-            console.error('Error loading pinned projects:', error);
-            container.innerHTML = '<p style="text-align: center; color: #d32f2f;">Failed to load pinned projects. Please check the console for details.</p>';
+            console.warn(`Failed to load stats for ${repo}:`, error);
         }
-    }
+    });
 }
 
-// Load projects when page is ready
-(function() {
-    // Wait for the container to exist
-    function init() {
-        const container = document.getElementById('pinned-projects-container');
-        if (container) {
-            loadPinnedProjects();
-        } else {
-            // Retry after a short delay
-            setTimeout(init, 100);
-        }
-    }
-    
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        // Page already loaded, try immediately
-        init();
-    }
-})();
+// Load stats in background (non-blocking)
+loadProjectStats();
 </script>
 
 <style>
